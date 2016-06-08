@@ -1,0 +1,28 @@
+#dashboard
+  #top_menu
+    height: 50px
+    background: $white
+
+    .menu_switch
+      float: left
+      margin-top: 17px
+      margin-left: 20px
+      @include base_transition()
+      &.active
+        margin-left: 220px
+    .menu_switch_button
+      width: 18px
+      height: 15px
+      display: block
+      background: url(/images/icons/menu.svg)
+      background-size: 18px 15px
+
+    .current_page
+      line-height: 50px
+      margin-left: 20px
+      float: left
+
+    .user_block
+      line-height: 50px
+      margin-right: 20px
+      float: right

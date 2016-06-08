@@ -1,0 +1,16 @@
+$base_font: 'Droid Sans', sans-serif
+
+html, body
+  font-family: $base_font
+  font-size: rem-calc(16)
+  color: $black
+
+  a
+    color: $blue
+    @include base-transition()
+    &:hover
+      color: $blue_hover
+
+  h1
+    font-size: rem-calc(20)
+    font-weight: bold
